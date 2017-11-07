@@ -1,0 +1,41 @@
+{
+  "name": "Coffee_chHouse",
+  "version": "0.0.0",
+  "description": "Coffee House",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "keywords": [
+    "coffee"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-plugin-syntax-class-properties": "^6.3.13",
+    "babel-plugin-syntax-decorators": "^6.3.13",
+    "babel-plugin-syntax-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "file-loader": "^0.8.5",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "es6-promise": "^4.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
+    "redux-api-state": "0.0.8",
+    "redux-logger": "^3.0.6"
+  }
+}
